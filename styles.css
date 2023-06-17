@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(0, 109, 44);
+    line-height: 75px;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: bold;
+}
+body h1{
+    text-align: center;
+    font-size: 60px;
+    color: goldenrod;
+    margin-bottom: 40px;
+}
+p{
+    color: #fff;
+    font-size: 40px;
+}
+#Message-el{
+    font-style: italic;
+}
+button{
+    padding: 10px ;
+    width: 270px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 77, 31);
+    background: goldenrod;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
